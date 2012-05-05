@@ -1,0 +1,12 @@
+es:
+
+  carts:
+   cart:
+   index:
+     title:"Carrito de la Compra"
+     empty: "Vaciar carrito "
+     checkout: "comprar"
+
+
+
+

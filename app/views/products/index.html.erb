@@ -18,7 +18,8 @@
       <td class="list_actions">
     <td><%= link_to 'Show', product %></td>
     <td><%= link_to 'Edit', edit_product_path(product) %></td>
-    <td><%= link_to 'Destroy', product, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to "delete", product, :method => :delete, :confirm => "You sure?",
+                    :title => "Delete" %></td>
   </tr>
 <% end %>
 </table>
